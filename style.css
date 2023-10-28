@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.box_parent1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 10px;
+}
+
+.box_parent2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 10px;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1 img{
+    box-shadow: 5px 5px 0 5px red;
+}
+
+.box2 img{
+    box-shadow: 5px 5px 6px blue;
+}
+
+.box3 img{
+    box-shadow: 0 0 8px 10px green;
+}
+
+.box4 img{
+    box-shadow: 30px 30px 10px 5px yellow;
+}
+
+.box5 img{
+    box-shadow: 0 15px 10px 15px blue;
+}
+
+.box6 img{
+    box-shadow: 7px 7px 20px 7px grey;
+}
